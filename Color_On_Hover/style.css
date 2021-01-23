@@ -46,11 +46,11 @@ h3 {
 }
 
 #red {
-  background-color: #ff7f7f;
+  background-color: #ff0000;
 }
 
 #blue {
-  background-color: #3299cc;
+  background-color: #2e37fe;
 }
 
 #grey {
@@ -58,5 +58,12 @@ h3 {
 }
 
 #allColors {
-  background-image: linear-gradient(to right, #e74c3c, #8e44ad);
+  background-image: linear-gradient(
+    to right,
+    #2ecc71,
+    #3498db,
+    #8e44ad,
+    #e74c3c,
+    #e67e22
+  );
 }
