@@ -45,8 +45,18 @@ h3 {
   color: white;
 }
 
-li {
-  color: white;
-  list-style-type: none;
-  font-weight: 600;
+#red {
+  background-color: #ff7f7f;
+}
+
+#blue {
+  background-color: #3299cc;
+}
+
+#grey {
+  background-color: #e0e0e0;
+}
+
+#allColors {
+  background-image: linear-gradient(to right, #e74c3c, #8e44ad);
 }
