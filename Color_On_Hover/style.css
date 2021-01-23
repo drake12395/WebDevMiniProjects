@@ -6,6 +6,7 @@
 
 body {
   background-color: #111;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +23,11 @@ body {
   max-width: 400px;
 }
 
+.btn-group button {
+  width: 50%;
+  padding: 10px 24px;
+}
+
 .square {
   background-color: #1d1d1d;
   box-shadow: 0 0 2px #000;
@@ -33,4 +39,14 @@ body {
 
 .square:hover {
   transition-duration: 0s;
+}
+
+h3 {
+  color: white;
+}
+
+li {
+  color: white;
+  list-style-type: none;
+  font-weight: 600;
 }
