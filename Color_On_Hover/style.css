@@ -46,15 +46,36 @@ h3 {
 }
 
 #red {
-  background-color: #ff0000;
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff4c4c,
+    #ff7f7f,
+    #ffb2b2,
+    #ffcccc
+  );
 }
 
 #blue {
-  background-color: #2e37fe;
+  background-image: linear-gradient(
+    to right,
+    #b0e2ff,
+    #05edff,
+    #3299cc,
+    #2e37fe,
+    #236b8e
+  );
 }
 
 #grey {
-  background-color: #e0e0e0;
+  background-image: linear-gradient(
+    to right,
+    #f8f8f8,
+    #e0e0e0,
+    #b0b0b0,
+    #888888,
+    #202020
+  );
 }
 
 #allColors {
